@@ -16,7 +16,7 @@ nav li {
 }
 
 nav li a:link {
-    color: rgb(248, 116, 76);
+    color: rgb(146, 37, 7);
 }
 
 nav li a:hover {
@@ -54,10 +54,9 @@ aside {
 }
 
 .bigimage {
-    width: 100%
+    width: 100%;
 }
 
-.classPicture{
-
-    
+.containerTwo {
+    display: flex;
 }
