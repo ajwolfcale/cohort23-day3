@@ -1,3 +1,5 @@
+/*------------------- Elements---------------*/
+
 body {
     background-color: rgb(21, 92, 92);
 }
@@ -5,7 +7,6 @@ body {
 nav {
 background-color: rgb(230, 167, 66);
 height: 2em;
-
 }
 
 nav li {
@@ -47,6 +48,9 @@ aside {
     width: 30%;
     float: right;
 }
+
+
+/*------------------- Class Selectors---------------*/
 .container {
     background-color: wheat;
     width: 90%;
@@ -60,3 +64,21 @@ aside {
 .containerTwo {
     display: flex;
 }
+
+.flex-container {
+    display: flex;
+    display: -webkit-flex;
+    width: 100%;
+    background-color: seagreen;
+    justify-content: center;
+    -webkit-justify-content:center;
+}
+
+.flex-item {
+    background-color: pink;
+    margin: 1em;
+}
+
+
+
+
